@@ -85,7 +85,7 @@ if &t_Co > 255
    hi Underlined      ctermfg=244               cterm=underline
 
    hi VisualNOS                   ctermbg=238
-   hi Visual                      ctermbg=233
+   hi Visual                      ctermbg=23
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
    hi WildMenu        ctermfg=81  ctermbg=16
 
