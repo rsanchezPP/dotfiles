@@ -4,8 +4,12 @@ export BIN="/usr/local/bin"
 export SBIN="/usr/local/sbin"
 export NPM="/usr/local/bin/npm"
 export HEROKU="/usr/local/heroku/bin"
+export GO="/usr/local/go/bin"
+export GOPATH="$HOME/go_path"
+export AWS_ACCESS_KEY_ID="AKIAJRGMIGEJZ5YTHPIQ"
+export AWS_SECRET_ACCESS_KEY="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"
 export RBENV="$HOME/.rbenv/bin"
-export PATH=$RBENV:$HEROKU:$NPM:$MYBIN:$BIN:$SBIN:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
+export PATH=$RBENV:$HEROKU:$NPM:$MYBIN:$BIN:$SBIN:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:$GO
 
 # env variables 
 export PGHOST=localhost

@@ -41,6 +41,10 @@
   new = green bold
 [user]
 	name = Rodolfo Sanchez
-	email = rodolfo@purchasingplatform.com
+	email = rodolfo2488@gmail.com
 
 
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true

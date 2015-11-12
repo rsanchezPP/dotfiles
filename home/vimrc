@@ -9,9 +9,11 @@ Plugin 'gmarik/Vundle.vim'
 
 " general vim/commands
 Plugin 'tpope/vim-repeat'
+Plugin 'ternjs/tern_for_vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'vim-scripts/vim-auto-save'
-
+Plugin 'pangloss/vim-javascript'
+Plugin 'MicahElliott/Rocannon'
 " syntax
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'leshill/vim-json'
@@ -87,7 +89,7 @@ Plugin 'bartek/vim-draftin'
 Plugin 'godlygeek/csapprox'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'Lokaltog/vim-powerline'
-
+Bundle 'ntpeters/vim-better-whitespace'
 call vundle#end()
 
 filetype plugin indent on
